@@ -11,10 +11,10 @@ public class TestBook {
 
 		for(int i=0; i< books.length; i++)
 		{
-			System.out.println("Please enter the title:");
+			System.out.println("Please enter the title: ");
 			String title = sc.nextLine();
 
-			System.out.println("Please enter the author:");
+			System.out.println("Please enter the author: ");
 			String author = sc.nextLine();
 
 			System.out.println("Please enter the price: ");
@@ -23,7 +23,7 @@ public class TestBook {
 
 			books[i] = new Book (author,title, price);
 		}
-		System.out.println("Please enter a title to search:");
+		System.out.println("Please enter a title to search: ");
 		String searchTitle = sc.nextLine();
 
 //		boolean found = false;
